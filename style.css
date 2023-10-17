@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+nav > div {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: font-size 400ms ease;
+}
+
+div:hover{
+    font-size: 3rem;
+}
